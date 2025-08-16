@@ -1,12 +1,13 @@
 import JobHistoryItem from '../JobHistoryItem/JobHistoryItem'
-import wubbl_co_logo from '../../assets/wubbl_co_logo.jpeg'
-import properti_ag_logo from '../../assets/properti_ag_logo.jpeg'
+import wubbl_co_logo from '../../assets/Experience/wubbl_co_logo.jpeg'
+import properti_ag_logo from '../../assets/Experience/properti_ag_logo.jpeg'
 export default function Experience() {
   return (
-    <div className="px-7 py-15 md:py-25 bg-[#F9FAFB] dark:bg-[#111726]">
+    <div id='Experience' className="px-7 py-15 md:py-25  dark:bg-[#030712]">
           <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl mx-auto mb-4 font-medium">Experience</h3>
       <p className="text-[#4B5563] text-center dark:text-[#D1D5DB] text-xl mb-10">Here is a quick summary of my most recent experiences:</p>
       <JobHistoryItem
+        link='https://www.linkedin.com/company/wubbl-co/'
         img={wubbl_co_logo}
         date={'Sep 2023 - PRESENT'}
         jobTitle='Remote Lead Communication Designer'
@@ -19,6 +20,7 @@ export default function Experience() {
             projects on time.`]}
       />
       <JobHistoryItem
+        link='https://www.linkedin.com/company/properti-ag/'
         img={properti_ag_logo}
         date={'Feb 2022 – Aug 2022'}
         jobTitle='Remote Graphic Designer'

@@ -1,84 +1,73 @@
-import img from '../../assets/project-wingie.webp'
+import Project from '../Project/Project'
+import Vivid_Scrubs from '../../assets/Projects/156-medical-scrubs-mockup-04.png'
+import Microgreens_Flyer from '../../assets/Projects/991204197554773.Y3JvcCwxMzA1LDEwMjAsMTAyNywyNDU.webp'
+import Happy_Diwali from '../../assets/Projects/Folded A4 Paper Card.png'
+import ChickenWale from '../../assets/Projects/Frame 4.png'
+import Microgreens_Posts from '../../assets/Projects/Frame 5.png'
+import Doos_Banzeen from '../../assets/Projects/Frame 6.png'
+import { useState } from 'react'
 export default function Work() {
-  
+  const [loadMore,setLoadMore] = useState(false)
   return (
-    <div className="px-7 py-15 md:py-25  dark:bg-[#030712]">
+    <div id='work' className="px-7 py-15 md:py-25 bg-[#F9FAFB] dark:bg-[#111827]">
           <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl mx-auto mb-4 font-medium">Work</h3>
       <p className="text-[#4B5563] text-center dark:text-[#D1D5DB] text-xl mb-10">Some of the noteworthy projects I have built:</p>
-      <div className="max-w-6xl mx-auto rounded-lg overflow-hidden grid md:grid-cols-2 mb-10 shadow-lg">
-        <div className="bg-[#F9FAFB] p-10 dark:bg-[#374151]">
-          <a
-            href=''
-            target='_blank'
-          >
-            <img src={img} className='w-full h-full  rounded-lg shadow-lg hover:scale-105 transition-all' alt="" />
-          </a>
-        </div>
-        <div className='p-10  dark:bg-[#1F2937]'> 
-          <h3 className='text-[#111827] dark:text-[#F9FAFB] text-xl mb-7 '>Wingie</h3>
-          <p className='text-[#4B5563] dark:text-[#D1D5DB] text-base mb-7'>A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.</p>
-          <div className='flex flex-wrap gap-2 mb-7 justify-start '>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react native</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react query</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl font-medium">react</h3>
-        </div>
-        <a
-          href=''
-          target='_blank'
-        >
-          <i className="fa-solid fa-up-right-from-square dark:text-[#D1D5DB] text-[#4B5563] text-xl"></i>
-        </a>
-        </div>
-        
-      </div>
-      <div className="max-w-6xl mx-auto rounded-lg overflow-hidden grid md:grid-cols-2 mb-10 shadow-lg">
-        <div className="bg-[#F9FAFB] p-10 dark:bg-[#374151]">
-          <a
-            href=''
-            target='_blank'
-          >
-            <img src={img} className='w-full h-full  rounded-lg shadow-lg hover:scale-105 transition-all' alt="" />
-          </a>
-        </div>
-        <div className='p-10  dark:bg-[#1F2937]'> 
-          <h3 className='text-[#111827] dark:text-[#F9FAFB] text-xl mb-7 '>Wingie</h3>
-          <p className='text-[#4B5563] dark:text-[#D1D5DB] text-base mb-7'>A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.</p>
-          <div className='flex flex-wrap gap-2 mb-7 justify-start '>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react native</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl  font-medium">react query</h3>
-          <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl font-medium">react</h3>
-        </div>
-        <a
-          href=''
-          target='_blank'
-        >
-          <i className="fa-solid fa-up-right-from-square dark:text-[#D1D5DB] text-[#4B5563] text-xl"></i>
-        </a>
-        </div>
-        
-      </div>
+      
+      <Project
+        link='https://www.behance.net/gallery/221045973/Vivid-Scrubs-Logo-for-scrubs-brand'
+        img={Vivid_Scrubs}
+        name='Vivid Scrubs'
+        description='Logo for scrubs brand'
+        tools={['Adobe Illustrator']}
+      />
+      <Project
+        link='https://www.behance.net/gallery/197554773/Flyer-for-Microgreens-Brand-Little-Leafy'
+        img={Microgreens_Flyer}
+        name='Microgreens_Flyer'
+        description='Flyer for Microgreens Brand'
+        tools={['Adobe Illustrator']}
+      />
+      <Project
+        link='https://www.behance.net/gallery/211799489/A-Postcard-design-for-the-Indian-Diwali-day'
+        img={Happy_Diwali}
+        name='Happy Diwali'
+        description='A Postcard design for the Indian Diwali day'
+        tools={['Adobe Illustrator']}
+      />
+      {loadMore && <>
+        <Project
+        link='https://www.behance.net/gallery/196917095/Social-media-ChickenWale'
+        img={ChickenWale}
+        name='ChickenWale'
+        description='Social media samples from a chicken business'
+        tools={['Adobe Illustrator','Adobe Photoshop']}
+      />
+      <Project
+        link='https://www.behance.net/gallery/196918869/Social-Media-Little-Leafy'
+        img={Microgreens_Posts}
+        name='Microgreens Posts'
+        description='Social media Posts from a microgreens business'
+        tools={['Adobe Illustrator','Adobe Photoshop']}
+      />
+      <Project
+        link='https://www.behance.net/gallery/196923479/Social-Media-Doos-Banzeen'
+        img={Doos_Banzeen}
+        name='Doos Banzeen'
+        description='Social media for Doos Banzeen'
+        tools={['Adobe Photoshop']}
+      />
+      </>}
+      <div className="w-full flex justify-center mt-10">
+        {!loadMore && <button
+          onClick={() => setLoadMore(true)}
+      type="button"
+      className="px-6 py-3 rounded-2xl border cursor-pointer border-gray-300 dark:border-gray-600 
+                 text-sm font-medium text-[#4B5563] dark:text-[#D1D5DB] 
+                 shadow-sm hover:shadow-md transition"
+    >
+      Load more
+    </button>}
+  </div>
     </div>
   )
 }

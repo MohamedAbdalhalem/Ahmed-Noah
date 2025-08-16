@@ -1,18 +1,25 @@
 
 
 export default function JobHistoryItem(
-    { img, jobTitle, date,roles,companyName }:
+    { img, jobTitle, date,roles,companyName,link }:
         {
             img?: string,
             companyName? : string
             jobTitle: string,
             date: string,
-            roles : string[]
+      roles: string[],
+            link?: string
         }) {
   return (
     <div className="max-w-4xl mx-auto mb-10 shadow-lg rounded-lg grid md:grid-cols-4 p-7 gap-5 dark:bg-[#1F2937]">
         <div className='col-span-1 order-1'>
-              {img && <img src={img} className='w-1/4 md:w-1/2' alt="" />}
+        {img && <a
+          href={link}
+          target="_blank"
+              >
+                <img src={img} className='w-1/4 md:w-1/2' alt="" />
+              </a
+              >}
               {companyName && <h3 className='text-[#111827] dark:text-[#F9FAFB]  text-lg mb-4 font-bold'>{ companyName }</h3>}
         </div>
         <div className='col-span-1 md:col-span-2 order-3 md:order-2'>
