@@ -19,6 +19,7 @@ export default function Work() {
         name='Vivid Scrubs'
         description='Logo for scrubs brand'
         tools={['Adobe Illustrator']}
+        order='odd'
       />
       <Project
         link='https://www.behance.net/gallery/197554773/Flyer-for-Microgreens-Brand-Little-Leafy'
@@ -26,6 +27,7 @@ export default function Work() {
         name='Microgreens_Flyer'
         description='Flyer for Microgreens Brand'
         tools={['Adobe Illustrator']}
+        order='even'
       />
       <Project
         link='https://www.behance.net/gallery/211799489/A-Postcard-design-for-the-Indian-Diwali-day'
@@ -33,6 +35,7 @@ export default function Work() {
         name='Happy Diwali'
         description='A Postcard design for the Indian Diwali day'
         tools={['Adobe Illustrator']}
+        order='odd'
       />
       {loadMore && <>
         <Project
@@ -40,21 +43,24 @@ export default function Work() {
         img={ChickenWale}
         name='ChickenWale'
         description='Social media samples from a chicken business'
-        tools={['Adobe Illustrator','Adobe Photoshop']}
+          tools={['Adobe Illustrator', 'Adobe Photoshop']}
+          order='even'
       />
       <Project
         link='https://www.behance.net/gallery/196918869/Social-Media-Little-Leafy'
         img={Microgreens_Posts}
         name='Microgreens Posts'
         description='Social media Posts from a microgreens business'
-        tools={['Adobe Illustrator','Adobe Photoshop']}
+          tools={['Adobe Illustrator', 'Adobe Photoshop']}
+          order='odd'
       />
       <Project
         link='https://www.behance.net/gallery/196923479/Social-Media-Doos-Banzeen'
         img={Doos_Banzeen}
         name='Doos Banzeen'
         description='Social media for Doos Banzeen'
-        tools={['Adobe Photoshop']}
+          tools={['Adobe Photoshop']}
+          order='even'
       />
       </>}
       <div className="w-full flex justify-center mt-10">
