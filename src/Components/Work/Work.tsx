@@ -9,7 +9,7 @@ import { useState } from 'react'
 export default function Work() {
   const [loadMore,setLoadMore] = useState(false)
   return (
-    <div id='work' className="px-7 py-15 md:py-25 bg-[#F9FAFB] dark:bg-[#111827]">
+    <div id='Work' className="px-7 py-15 md:py-25 bg-[#F9FAFB] dark:bg-[#111827]">
           <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[rgb(209,213,219)] px-5 py-1 rounded-xl mx-auto mb-4 font-medium">Work</h3>
       <p className="text-[#4B5563] text-center dark:text-[#D1D5DB] text-xl mb-10">Some of the noteworthy projects I have built:</p>
       

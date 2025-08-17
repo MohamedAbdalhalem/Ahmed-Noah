@@ -4,7 +4,7 @@ import useCopy from "../../hooks/useCopy"
 export default function Contact() {
   const {copiedEmail,copiedPhone,copyEmail,copyPhone} = useCopy()
   return (
-    <div id="content" className="px-7 py-15 md:py-25 bg-[#F9FAFB] dark:bg-[#111726]">
+    <div id="Content" className="px-7 py-15 md:py-25 bg-[#F9FAFB] dark:bg-[#111726]">
       <div className="max-w-3xl   mx-auto text-center">
               <h3 className="w-fit bg-[#E5E7EB] dark:bg-[#374151] text-sm text-[#4B5563] dark:text-[#D1D5DB] px-5 py-1 rounded-xl mx-auto mb-4 font-medium">Get in touch</h3>
               <p className="text-xl text-[#4B5563] dark:text-[#D1D5DB] mb-12">What’s next? Feel free to reach out to me if you are looking for a developer, have a query, or simply want to connect.</p>
