@@ -1,50 +1,67 @@
-# React + TypeScript + Vite
+# 🎨 Ahmed Noah - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I'm a **Creative and detail-oriented Graphic Designer** with 3+ years of experience in illustration, video editing, and photography.  
+Proficient in **Adobe Photoshop, Illustrator, Figma, and Premiere Pro**.  
+Currently **available for new projects**.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[View Portfolio](https://ahmed-noah.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Skills
+- Adobe Photoshop  
+- Adobe Illustrator  
+- Adobe Premiere Pro  
+- Figma  
+- Photo Retouching  
+- Logo Design  
+- Video Editing  
+- Image Editing  
+- Photography  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 💼 Experience
+- **Remote Lead Communication Designer** (Sep 2023 – Present)  
+  - Led a communication design team for a digital services provider.  
+  - Increased engagement by 20% through design strategies.  
+  - Coordinated with international teams to deliver projects on time.  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Remote Graphic Designer** (Feb 2022 – Aug 2022)  
+  - Designed motion graphics, edited photos & videos, managed social media content.  
+  - Delivered high-quality projects under tight deadlines.  
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Part-Time Social Media Designer (Doos Banzeen)** (Feb 2021 – Aug 2023)  
+  - Developed social media content for SHELL franchise & car services.  
+  - Achieved a 30% increase in online engagement.  
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📂 Selected Work
+- **Vivid Scrubs** → Logo design (Adobe Illustrator)  
+- **Microgreens Flyer** → Flyer design (Adobe Illustrator)  
+- **Happy Diwali** → Postcard design (Adobe Illustrator)  
+- **ChickenWale** → Social media samples (Illustrator, Photoshop)  
+- **Microgreens Posts** → Social media posts (Illustrator, Photoshop)  
+- **Doos Banzeen** → Social media campaigns (Photoshop)  
+
+---
+
+## 💬 Testimonials
+> *"I highly recommend Noah for his exceptional skills as a visualizer and designer. He consistently transforms concepts into visually compelling designs."*  
+— **Sufyan S.**, Certified Marketeer  
+
+> *"I had the pleasure of working with Noah. His creativity, attention to detail, and proficiency in photo editing consistently exceed expectations."*  
+— **Angad Luthra**, Lead Experiences at Properti AG  
+
+---
+
+## 📬 Contact
+- 📧 Email: **ahmedalaaalden@gmail.com**  
+- 📱 Phone: **+20 1030657156**  
+- 💼 LinkedIn: [https://www.linkedin.com/in/ahmed-noah99/](#)  
+
+---
+
+✨ 2025 | Coded with ❤️ by **Mohamed Abdelhalem**
