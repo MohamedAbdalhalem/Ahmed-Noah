@@ -2,7 +2,7 @@ import useCopy from "../../hooks/useCopy"
 
 
 export default function Contact() {
-  const {copiedEmail,copiedPhone,copyEmail,copyPhone} = useCopy()
+  const {copiedEmail,copyEmail} = useCopy()
   return (
     <div id="Content" className="px-7 py-15 md:py-25 bg-[#F9FAFB] dark:bg-[#111726]">
       <div className="max-w-3xl   mx-auto text-center">
@@ -15,13 +15,7 @@ export default function Contact() {
             {copiedEmail && <span className="w-fit absolute -top-7 right-1/3 translate-x-1/2 bg-[#E5E7EB] dark:bg-[#374151] text-xs text-[#4B5563] dark:text-[#D1D5DB] px-3 py-1 rounded-xl  font-medium">Copied</span>}
           </span>
               </h2>
-              <h2 className="text-[#111827] text-lg dark:text-[#F9FAFB] md:text-4xl font-bold mb-12">
-                  <i className="fa-solid dark:text-[#D1D5DB]  fa-phone text-base md:text-2xl me-2 text-[#4B5563]"></i> +201030657156
-          <span className="relative">
-            <i onClick={copyPhone} className="copyEmail fa-solid dark:text-[#D1D5DB]  fa-copy cursor-pointer text-base md:text-2xl ms-2 text-[#4B5563]"></i>
-            {copiedPhone && <span className="w-fit absolute -top-7 right-1/3 translate-x-1/2 bg-[#E5E7EB] dark:bg-[#374151] text-xs text-[#4B5563] dark:text-[#D1D5DB] px-3 py-1 rounded-xl  font-medium">Copied</span>}
-          </span>
-              </h2>
+              
               <p className="text-base text-[#4B5563] dark:text-[#D1D5DB]  mb-3">You may also find me on these platforms!</p>
               <div>
           <a
