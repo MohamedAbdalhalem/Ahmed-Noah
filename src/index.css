@@ -8,9 +8,3 @@
 body{
     font-family: "Roboto", sans-serif;
 }
-.sidebar{
-    display: none;
-}
-.sidebar > div{
-    transform: translateX(100%);
-}

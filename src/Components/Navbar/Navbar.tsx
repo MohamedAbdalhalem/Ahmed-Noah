@@ -1,10 +1,22 @@
+import { useLayoutEffect, useRef } from "react"
 import useSidebar from "../../hooks/useSidebar"
 import useSwitchTheme from "../../hooks/useSwitchTheme"
 
 export default function Navbar() {
   const { hideSide, showSide } = useSidebar()
   const { darkMood, theme } = useSwitchTheme()
-  const links : string[] = ['Skills','Experience','Work','Testimonials','Content']
+  const coverOfSidebar = useRef<HTMLElement>(null)
+  const sidebar = useRef<HTMLDivElement>(null)
+  const links: string[] = ['Skills', 'Experience', 'Work', 'Testimonials', 'Content']
+  useLayoutEffect(() => {
+    if (coverOfSidebar.current) {
+      coverOfSidebar.current.style.visibility = 'hidden'
+    }
+    if (sidebar.current) {
+      sidebar.current.style.transform = 'translateX(100%)'
+      sidebar.current.style.transition = '0.5s all'
+    }
+  },[])
   return (
     <div className="relative">
       <nav className="flex  backdrop-blur-xl justify-between items-center px-7 2xl:px-40 py-4 fixed w-full z-50">
@@ -30,8 +42,8 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <section className="sidebar  z-50 fixed overflow-hidden backdrop-blur-[4px]  top-0 w-full h-screen">
-        <div className="w-[70%] dark:bg-[#030712]  sm:max-w-[42%] ms-auto bg-white h-full ">
+      <section ref={coverOfSidebar} className="sidebar  z-50 fixed overflow-hidden backdrop-blur-[4px]  top-0 w-full h-screen">
+        <div ref={sidebar} className="w-[70%] dark:bg-[#030712]  sm:max-w-[42%] ms-auto bg-white h-full ">
           <div className="p-5 flex justify-between items-center  border-b-1 border-gray-200 dark:border-gray-700">
             <a onClick={hideSide} href="#home" className="text-2xl  cursor-pointer font-bold dark:text-white">&lt;AN /&gt;</a>
             <i onClick={hideSide} className="fa-solid dark:text-white  text-lg text-[#4B5563] cursor-pointer fa-xmark"></i>
