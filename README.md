@@ -64,4 +64,4 @@ Currently **available for new projects**.
 
 ---
 
-✨ 2025 | Coded with ❤️ by **Mohamed Abdelhalem**
+✨ 2026 | Coded with ❤️ by **Mohamed Abdelhalem**
